@@ -1,0 +1,339 @@
+@media only screen and (min-width: 1120px) {
+  .col-sm-3{
+    position: fixed;
+    z-index: 1;
+  }
+  
+  .col-sm-9{
+    float: right;
+  }
+}
+
+
+
+#update{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 2px;
+  border: 4px solid rgb(114, 30, 99);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-weight: bold;
+  
+}
+
+.chartOptions{
+  position: absolute;
+  margin: 0;
+  width: 92px;
+  height: 34px;
+  right: 10px;
+  top: 60px;
+  transition: width 0.5s, height 0.5s;
+  overflow: hidden;
+}
+
+.chartOptions:first-child{
+  float: right;
+}
+
+#genomePlot img{
+  width: 100%;
+}
+
+#genomePlot{
+  transition: width 0.5s;
+}
+
+.shiny-input-panel{
+  overflow: auto;
+  width: 100%;
+}
+
+.shiny-options-group{
+  margin-left: 20px;
+}
+
+
+ol{
+  margin:0;padding:0
+  }
+  table td,table th{
+    padding:0
+    
+  }
+  .c13{
+    border-right-style:solid;
+    padding:5pt 5pt 5pt 5pt;
+    border-bottom-color:#ffffff;
+    border-top-width:1pt;
+    border-right-width:1pt;
+    border-left-color:#ffffff;
+    vertical-align:top;
+    border-right-color:#ffffff;
+    border-left-width:1pt;
+    border-top-style:solid;
+    border-left-style:solid;
+    border-bottom-width:1pt;
+    width:56.2pt;
+    border-top-color:#ffffff;
+    border-bottom-style:solid
+    
+  }
+  .c7{
+    border-right-style:solid;
+    padding:5pt 5pt 5pt 5pt;
+    border-bottom-color:#ffffff;
+    border-top-width:1pt;
+    border-right-width:1pt;
+    border-left-color:#ffffff;
+    vertical-align:top;
+    border-right-color:#ffffff;
+    border-left-width:1pt;
+    border-top-style:solid;
+    border-left-style:solid;
+    border-bottom-width:1pt;
+    width:87pt;
+    border-top-color:#ffffff;
+    border-bottom-style:solid
+    
+  }
+  .c1{
+    border-right-style:solid;
+    padding:5pt 5pt 5pt 5pt;
+    border-bottom-color:#ffffff;
+    border-top-width:1pt;
+    border-right-width:1pt;
+    border-left-color:#ffffff;
+    vertical-align:top;
+    border-right-color:#ffffff;
+    border-left-width:1pt;
+    border-top-style:solid;
+    border-left-style:solid;
+    border-bottom-width:1pt;
+    width:91.5pt;
+    border-top-color:#ffffff;
+    border-bottom-style:solid
+    
+  }
+  .c8{
+    border-right-style:solid;
+    padding:5pt 5pt 5pt 5pt;
+    border-bottom-color:#ffffff;
+    border-top-width:1pt;
+    border-right-width:1pt;
+    border-left-color:#ffffff;
+    vertical-align:top;
+    border-right-color:#ffffff;
+    border-left-width:1pt;
+    border-top-style:solid;
+    border-left-style:solid;
+    border-bottom-width:1pt;
+    width:78pt;
+    border-top-color:#ffffff;
+    border-bottom-style:solid
+    
+  }
+  .c10{
+    color:#000000;
+    font-weight:400;
+    text-decoration:none;
+    vertical-align:baseline;
+    font-size:11pt;
+    font-family:"Arial";
+    font-style:normal
+    
+  }
+  .c9{
+    color:#000000;
+    font-weight:400;
+    text-decoration:none;
+    vertical-align:baseline;
+    font-size:16pt;
+    font-family:"Arial";
+    font-style:normal
+    
+  }
+  .c11{
+    padding-top:18pt;
+    padding-bottom:6pt;
+    line-height:1.15;
+    page-break-after:avoid;
+    orphans:2;widows:2;text-align:left
+    
+  }
+  .c2{
+    padding-top:0pt;
+    padding-bottom:0pt;
+    line-height:1.15;
+    orphans:2;
+    widows:2;
+    text-align:left;
+    height:11pt
+    
+  }
+  .c6{
+    padding-top:0pt;
+    padding-bottom:0pt;
+    line-height:1.15;
+    orphans:2;
+    widows:2;
+    text-align:left
+    
+  }
+  .c3{
+    padding-top:0pt;
+    padding-bottom:0pt;
+    line-height:1.2;
+    orphans:2;
+    widows:2;
+    text-align:left
+    
+  }
+  .c5{
+    border-spacing:0;
+    border-collapse:collapse;
+    margin-right:auto
+    
+  }
+  .c14{
+    color:#000000;
+    text-decoration:none;
+    vertical-align:baseline;
+    font-style:normal
+    
+  }
+  .c0{
+    background-color:#ffffff;
+    font-size:10pt;
+    font-family:"Courier New";
+    font-weight:400
+    
+  }
+  .c12{
+    background-color:#ffffff;
+    max-width:468pt;
+    padding:72pt 72pt 72pt 72pt
+    
+  }
+  .c4{
+    height:0pt
+    
+  }
+  .title{
+    padding-top:0pt;
+    color:#000000;
+    font-size:26pt;
+    padding-bottom:3pt;
+    font-family:"Arial";
+    line-height:1.15;
+    page-break-after:avoid;
+    orphans:2;
+    widows:2;
+    text-align:left
+    
+  }
+  .subtitle{
+    padding-top:0pt;
+    color:#666666;
+    font-size:15pt;
+    padding-bottom:16pt;
+    font-family:"Arial";
+    line-height:1.15;
+    page-break-after:avoid;
+    orphans:2;
+    widows:2;
+    text-align:left
+    
+  }
+  li{
+    color:#000000;
+    font-size:11pt;
+    font-family:"Arial"
+    
+  }
+  p{
+    margin:0;
+    color:#000000;
+    font-size:11pt;
+    font-family:"Arial"
+    
+  }
+  h1{
+    padding-top:20pt;
+    color:#000000;
+    font-size:20pt;
+    padding-bottom:6pt;
+    font-family:"Arial";
+    line-height:1.15;
+    page-break-after:avoid;
+    orphans:2;
+    widows:2;
+    text-align:left
+    
+  }
+  h2{
+    padding-top:18pt;
+    color:#000000;
+    font-size:16pt;
+    padding-bottom:6pt;
+    font-family:"Arial";
+    line-height:1.15;
+    page-break-after:avoid;
+    orphans:2;
+    widows:2;
+    text-align:left
+    
+  }
+  h3{
+    padding-top:16pt;
+    color:#434343;
+    font-size:14pt;
+    padding-bottom:4pt;
+    font-family:"Arial";
+    line-height:1.15;
+    page-break-after:avoid;
+    orphans:2;
+    widows:2;
+    text-align:left
+    
+  }
+  h4{
+    padding-top:14pt;
+    color:#666666;
+    font-size:12pt;
+    padding-bottom:4pt;
+    font-family:"Arial";
+    line-height:1.15;
+    page-break-after:avoid;
+    orphans:2;
+    widows:2;
+    text-align:left
+    
+  }
+  h5{
+    padding-top:12pt;
+    color:#666666;
+    font-size:11pt;
+    padding-bottom:4pt;
+    font-family:"Arial";
+    line-height:1.15;
+    page-break-after:avoid;
+    orphans:2;
+    widows:2;
+    text-align:left
+    
+  }
+  h6{
+    padding-top:12pt;
+    color:#666666;
+    font-size:11pt;
+    padding-bottom:4pt;
+    font-family:"Arial";
+    line-height:1.15;
+    page-break-after:avoid;
+    font-style:italic;
+    orphans:2;
+    widows:2;
+    text-align:left
+    
+  }
